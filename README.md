@@ -4,7 +4,7 @@ This is the frontend web development application for Xiteb frontend web develope
 
 ## 📌 **Task Completed**
 - All the features listed in the PDF file have been developed (development only).
-- Time taken for development: 3 hours (from 10:10 AM to 1:10 PM)
+- Time taken for development: 3 hours 20 mins (from 10:10 AM to 1:30 PM)
 
 ## 🚀 Getting Started
 
