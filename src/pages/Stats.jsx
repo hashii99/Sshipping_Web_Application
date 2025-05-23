@@ -22,10 +22,8 @@ const StatsSection = () => (
             <StatusCard 
             count={status?.count} 
             status = {status?.status} />
-
         ))}
         </div>
     </div>
 );
-
 export default StatsSection;

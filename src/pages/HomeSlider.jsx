@@ -1,22 +1,16 @@
 import React, { useState } from 'react';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import SliderImage1 from '../assests/shippingimage1.jpg';
-import SliderImage2 from '../assests/shippingimage2.jpg';
-
-const slides = [SliderImage1, SliderImage2];
+import { slides } from '../utilities/helpers';
 
 const HomeSlider = () => {
     const [current, setCurrent] = useState(0);
-
     const prevSlide = () => {
         setCurrent((current - 1 + slides.length) % slides.length);
     };
-
     const nextSlide = () => {
         setCurrent((current + 1) % slides.length);
     };
-
     return (
         <div className="relative w-full">
             <div className="w-full min-h-screen flex flex-col md:flex-row px-2 md:px-6 py-4 md:py-8">
@@ -65,5 +59,4 @@ const HomeSlider = () => {
         </div>
     );
 };
-
 export default HomeSlider;

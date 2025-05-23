@@ -4,7 +4,6 @@ import { reasons, testimonialsThoughts } from '../utilities/helpers';
 import Pagination from '@mui/material/Pagination';
 import PaginationItem from '@mui/material/PaginationItem';
 
-
 export const HorizontalLineApply = () => {
     return (
         <div>
@@ -12,17 +11,13 @@ export const HorizontalLineApply = () => {
         </div>
     );
 };
-
 export const AddPlusIcon = () => {
     return (
-        <div>
-            <button className="inline-flex items-center text-black">
-                <AddIcon className="bg-black text-white" fontSize="small" />
-            </button>
-        </div>
+        <button className="inline-flex items-center text-black">
+            <AddIcon className="bg-black text-white" fontSize="small" />
+        </button>
     );
 };
-
 export const QuoteCard = ({ name, position, thought }) => {
     return (
         <div className='flex justify-center'>
@@ -30,13 +25,11 @@ export const QuoteCard = ({ name, position, thought }) => {
                 <div className="absolute -left-4 top-10 z-10 bg-red-700 text-white h-[40px] w-[60px] flex items-center justify-center pt-3">
                     <span className="text-5xl leading-none font-serif select-none">“</span>
                 </div>
-
                 <div className="bg-gray-100 p-8 pl-16 flex items-center max-w-l">
                     <div className="flex flex-col">
                         <p className="text-gray-600 text-xs leading-relaxed mb-8 font-medium">{thought}</p>
                     </div>
                 </div>
-
                 <div className="mt-2 mr-1">
                     <h3 className="font-bold text-gray-800 uppercase text-base text-right">{name}</h3>
                     <p className="text-gray-500 text-xs text-right font-semibold">{position}</p>
@@ -110,5 +103,4 @@ const Testimonials = () => {
         </div>
     )
 };
-
 export default Testimonials;

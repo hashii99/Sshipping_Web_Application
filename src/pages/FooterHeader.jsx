@@ -24,5 +24,4 @@ const FooterHeader = () => (
     </div>
   </div>
 );
-
 export default FooterHeader;

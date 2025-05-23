@@ -3,7 +3,7 @@ import { cardsData } from '../utilities/helpers';
 
 const Card = ({ image, date, month, title, admin, comments, description }) => {
   return (
-      <div className="bg-white shadow-md overflow-hidden flex flex-col md:flex-row w-4/5 mx-auto">
+    <div className="bg-white shadow-md overflow-hidden flex flex-col md:flex-row w-4/5 mx-auto">
       <div className="relative w-full md:w-1/2">
         <img className="w-full h-full object-cover" src={image} alt="Card visual" />
         <div className="absolute top-0 left-0 bg-blue-900 text-white px-2 py-1 rounded">
@@ -37,16 +37,15 @@ const Card = ({ image, date, month, title, admin, comments, description }) => {
         <p className="text-gray-600 text-xs text-left w-4/5">{description}</p>
       </div>
     </div>
-  );
+  )
 };
-
 
 const News = () => {
   return (
     <div className="p-4 mt-2 mb-2 bg-white">
       <p className="text-lg font-bold text-blue-900">LATEST NEWS</p>
       <div className="flex text-center items-center justify-center mb-8">
-        <div className='w-2 h-2 bg-blue-500 mr-2 mt-0.5'/>
+        <div className='w-2 h-2 bg-blue-500 mr-2 mt-0.5' />
         <h1 className="text-xs text-gray-400 font-semibold">INTEGER CONGUE ELIT</h1>
       </div>
 
@@ -58,5 +57,4 @@ const News = () => {
     </div>
   );
 };
-
 export default News;

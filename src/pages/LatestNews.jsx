@@ -1,7 +1,6 @@
 import React from "react";
-import { Seperator } from "../utilities/helpers";
+import { Seperator, latestNewsList } from "../utilities/helpers";
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import { latestNewsList } from "../utilities/helpers";
 
 const LatestNews = () => (
   <div className="p-6 text-left">
@@ -20,5 +19,4 @@ const LatestNews = () => (
     </ul>
   </div>
 );
-
 export default LatestNews;

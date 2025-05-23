@@ -1,8 +1,5 @@
 import React from "react";
-import SampleImage from "../assests/image1.jpg";
-import { Seperator } from "../utilities/helpers";
-
-const sampleImages = [SampleImage, SampleImage, SampleImage, SampleImage, SampleImage, SampleImage]
+import { Seperator, sampleImages } from "../utilities/helpers";
 
 const CustomerServices = () => (
     <div className='p-6'>
@@ -21,5 +18,4 @@ const CustomerServices = () => (
         </div>
     </div>
 );
-
 export default CustomerServices;

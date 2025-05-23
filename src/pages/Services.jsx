@@ -10,11 +10,9 @@ const ITEMS_PER_PAGE = 2;
 const Services = () => {
     const [page, setPage] = useState(1);
     const pageCount = Math.ceil(services.length / ITEMS_PER_PAGE);
-
     const handleChange = (event, value) => {
         setPage(value);
     };
-
     const startIndex = (page - 1) * ITEMS_PER_PAGE;
     const currentServices = services.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
@@ -48,9 +46,7 @@ const Services = () => {
                 ))}
             </div>
 
-            {/* Pagination Controls */}
             <div className="mt-8 flex justify-between">
-                {/* Footer CTA */}
                 <div className="flex flex-col md:flex-row justify-between items-center p-4 rounded-lg">
                     <p className="text-xs text-gray-600 font-medium text-center md:text-left">
                         Logistic & Transport Solutions Saves Your Time.
@@ -61,56 +57,37 @@ const Services = () => {
                     </button>
                 </div>
                 <Stack spacing={2}>
-                    {/* <Pagination
+                    <Pagination
                         count={pageCount}
                         page={page}
                         onChange={handleChange}
-                        renderItem={(item) => (
-                            <button
-                                onClick={() => setPage(item.page)}
-                                className={`w-2 h-2 mx-1 rounded-full border border-gray-400 transition-all ${item.page === page ? 'bg-black' : 'bg-white'
-                                    }`}
-                            />
-                        )}
                         siblingCount={0}
                         boundaryCount={0}
-                    /> */}
-                    <Stack spacing={2}>
-                        <Pagination
-                            count={pageCount}
-                            page={page}
-                            onChange={handleChange}
-                            siblingCount={0}
-                            boundaryCount={0}
-                            shape="rounded"
-                            renderItem={(item) => (
-                                <PaginationItem
-                                    {...item}
-                                    disableRipple
-                                    sx={{
-                                        width: 10,
-                                        height: 10,
-                                        minWidth: 10,
-                                        borderRadius: '50%',
-                                        border: '1px solid #ccc',
-                                        bgcolor: item.selected ? 'black' : 'white',
-                                        '&.Mui-selected': {
-                                            bgcolor: 'black',
-                                        },
-                                        '&:hover': {
-                                            bgcolor: '#333',
-                                        },
-                                    }}
-                                />
-                            )}
-                        />
-                    </Stack>
-
-
+                        shape="rounded"
+                        renderItem={(item) => (
+                            <PaginationItem
+                                {...item}
+                                disableRipple
+                                sx={{
+                                    width: 10,
+                                    height: 10,
+                                    minWidth: 10,
+                                    borderRadius: '50%',
+                                    border: '1px solid #ccc',
+                                    bgcolor: item.selected ? 'black' : 'white',
+                                    '&.Mui-selected': {
+                                        bgcolor: 'black',
+                                    },
+                                    '&:hover': {
+                                        bgcolor: '#333',
+                                    },
+                                }}
+                            />
+                        )}
+                    />
                 </Stack>
             </div>
         </div>
     );
 };
-
 export default Services;

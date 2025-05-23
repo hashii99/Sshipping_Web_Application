@@ -40,6 +40,11 @@ The frontend will be available at http://localhost:3000.
 - **Material UI** – UI Components and Icons
     npm install @mui/material @emotion/react @emotion/styled
     npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+- **Tailwind CSS** – Styling
+    npm install -D tailwindcss@3
+    npx tailwindcss init
+    npm install @mui/material @emotion/react @emotion/styled
+    npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
 - **React Router DOM** – Client-side Routing
     npm install react-router-dom
 

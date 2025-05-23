@@ -6,19 +6,13 @@ const Welcome = () => {
   return (
     <section className="w-full px-4 py-12 bg-white mb-12">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
-
-        {/* Left Image Section */}
         <div className="flex-1 flex justify-center md:justify-end">
           <div className="relative w-full max-w-md">
-
-            {/* Main Image */}
             <img
               src={ShipingWorker}
               alt="Worker with clipboard"
               className="rounded-md w-3/4 sm:w-1/2 md:w-full h-auto object-cover mx-auto"
             />
-
-            {/* Overlapping Image - Responsive Positioning */}
             <div className="absolute -bottom-20 left-0 sm:-bottom-24 sm:-left-12 w-full sm:w-1/2">
               <img
                 src={ShipingWorker2}
@@ -26,16 +20,12 @@ const Welcome = () => {
                 className="rounded-md object-cover h-52 sm:h-60 md:h-72 shadow-lg w-auto"
               />
             </div>
-
-            {/* Stats Box */}
             <div className="absolute bottom-0 -right-6 translate-y-1/2 bg-orange-500 text-white p-4 rounded-md shadow-lg">
               <p className="text-2xl font-bold">15,350+</p>
               <p className="text-xs">Clients Worldwide</p>
             </div>
           </div>
         </div>
-
-        {/* Right Text Section */}
         <div className="flex-1 text-center md:text-left mt-10">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight">
             TransMax Logistics <br />
@@ -59,5 +49,4 @@ const Welcome = () => {
     </section>
   );
 };
-
 export default Welcome;

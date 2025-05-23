@@ -122,37 +122,40 @@ export const Seperator = () => {
 }
 
 export const latestNewsList = [
-  {
-    news: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", 
-    time:"5 seconds ago"
-  },
-  {
-    news: "Lorem ipsum, consectetur. Lorem ipsum dolor sit amet.", 
-    time:"5 minutes ago"
-  },
+    {
+        news: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        time: "5 seconds ago"
+    },
+    {
+        news: "Lorem ipsum, consectetur. Lorem ipsum dolor sit amet.",
+        time: "5 minutes ago"
+    },
 ];
 
 export const customerServices = ["Communications", "FAQ", "Support Forums", "Privacy Policy", "Rules and Conditions", "Contact Us"];
 
 export const menuItems = [
     {
-      label: 'Home',
-      submenu: ['Logistics', 'Freight', 'Customs'],
+        label: 'Home',
+        submenu: ['Logistics', 'Freight', 'Customs'],
     },
     {
-      label: 'Pages',
-      submenu: ['Logistics', 'Freight', 'Customs'],
+        label: 'Pages',
+        submenu: ['Logistics', 'Freight', 'Customs'],
     },
     {
-      label: 'Traking',
+        label: 'Traking',
     },
     {
-      label: 'Services',
-      submenu: ['Logistics', 'Freight', 'Customs'],
+        label: 'Services',
+        submenu: ['Logistics', 'Freight', 'Customs'],
     },
     {
-      label: 'Blog',
-      submenu: ['Logistics', 'Freight', 'Customs'],
+        label: 'Blog',
+        submenu: ['Logistics', 'Freight', 'Customs'],
     },
-  ];
-  
+];
+
+export const sampleImages = [ImageOne, ImageOne, ImageOne, ImageOne, ImageOne, ImageOne];
+
+export const slides = [ImageThree, ImageFour];
