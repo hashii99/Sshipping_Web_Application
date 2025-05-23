@@ -55,5 +55,12 @@ For questions, feel free to reach out:
 - Email: hashinithilinika.av@gmail.com
 - Contact : 070 396 6425
 
+## Submission
+Since I'm getting a security issue when sending project files as a zip file, I uploaded my project into the github as well as google drive. 
+Kindly request to follow up on this. Also added a small demo video as well inside the Google Drive.  
+Github: https://github.com/hashii99/Sshipping_Web_Application.git
+Google Drive: https://drive.google.com/drive/folders/1wERTUP3qDRE2NI-degNk1yloXQN7veDq?usp=sharing
+Demo Link : https://drive.google.com/file/d/1Nc6ESyNqvcUxpAl23CY-BafFA4MVJaCQ/view?usp=sharing
+
 ### NOTE 
 - used dummy data, content. 
