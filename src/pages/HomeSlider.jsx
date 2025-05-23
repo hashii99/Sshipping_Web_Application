@@ -43,7 +43,7 @@ const HomeSlider = () => {
                 </div>
             </div>
 
-            <div className="absolute bottom-4 left-10 flex items-center gap-4 bg-yellow-500 px-4 py-2 rounded shadow z-20">
+            <div className="absolute bottom-4 left-10 flex items-center gap-4 bg-yellow-500 px-4 py-2 shadow z-20">
                 <span className="text-sm font-semibold text-white">
                     {current + 1} / {slides.length}
                 </span>
